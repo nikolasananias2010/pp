@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Aluno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .student-info {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .subjects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .subject {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50;
+        }
+        .subject h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .grade {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        @media (max-width: 600px) {
+            .subjects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Página do Aluno</h1>
+        
+        <div class="student-info">
+            <h2>Informações do Aluno</h2>
+            <p><strong>Nome:</strong> Nikolas M. Ananias</p>
+            <p><strong>Idade</strong> 15</p>
+            <p><strong>Turma:</strong> 1º Ano B</p>
+        </div>
+        
+        <h2>Minhas Matérias</h2>
+        <div class="subjects">
+            <div class="subject">
+                <h3>Matemática</h3>
+                <p><strong>Professor:</strong> Nilza</p>
+                <p><strong>Nota:</strong> <span class="grade">8.5</span></p>
+                <p><strong>Faltas:</strong> 2</p>
+            </div>
+            
+            <div class="subject">
+                <h3>Português</h3>
+                <p><strong>Professor:</strong> Adriana </p>
+                <p><strong>Nota:</strong> <span class="grade">9.0</span></p>
+                <p><strong>Faltas:</strong> 1</p>
+            </div>
+            
+            <div class="subject">
+                <h3>História</h3>
+                <p><strong>Professor:</strong> Adriana</p>
+                <p><strong>Nota:</strong> <span class="grade">7.8</span></p>
+                <p><strong>Faltas:</strong> 0</p>
+            </div>
+            
+            <div class="subject">
+                <h3>Geografia</h3>
+                <p><strong>Professor:</strong> Claudiane </p>
+                <p><strong>Nota:</strong> <span class="grade">8.2</span></p>
+                <p><strong>Faltas:</strong> 1</p>
+            </div>
+            
+            <div class="subject">
+                <h3>Biologia</h3>
+                <p><strong>Professor:</strong> Marili</p>
+                <p><strong>Nota:</strong> <span class="grade">8.9</span></p>
+                <p><strong>Faltas:</strong> 0</p>
+            </div>
+            
+            <div class="subject">
+                <h3>Inglês</h3>
+                <p><strong>Professor:</strong> Micheline</p>
+                <p><strong>Nota:</strong> <span class="grade">9.5</span></p>
+                <p><strong>Faltas:</strong> 1</p>
+            </div>
+            
+            <div class="subject">
+                <h3>Educação Física</h3>
+                <p><strong>Professor:</strong> Sidney</p>
+                <p><strong>Nota:</strong> <span class="grade">10.0</span></p>
+                <p><strong>Faltas:</strong> 0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
